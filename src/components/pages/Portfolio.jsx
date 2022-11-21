@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Proyect from "../proyects/proyect";
+import Proyect from "../proyects/Proyect";
 import foto from "../../assets/bg.jpg";
 import todo from "../../assets/to-do.png";
 import cripto from "../../assets/cripto.png";
