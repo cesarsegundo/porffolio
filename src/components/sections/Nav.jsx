@@ -1,41 +1,42 @@
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Nav = () => {
   return (
     <nav className="pt-7 h-20 text-lg bg-gradient-to-r from-black via-nav to-black">
       <ul className="flex justify-center text-white space-x-4">
-        <li>
+        <motion.li whileTap={{ scale: 0.9 }}>
           <NavLink
             to="/"
             className={({ isActive }) => (isActive ? "text-col1" : "")}
           >
             Inicio
           </NavLink>
-        </li>
-        <li>
+        </motion.li>
+        <motion.li whileTap={{ scale: 0.9 }}>
           <NavLink
             to="/acerca"
             className={({ isActive }) => (isActive ? "text-col1" : "")}
           >
             Acerca de mí
           </NavLink>
-        </li>
-        <li>
+        </motion.li>
+        <motion.li whileTap={{ scale: 0.9 }}>
           <NavLink
             to="/portafolio"
             className={({ isActive }) => (isActive ? "text-col1" : "")}
           >
             Portafolio
           </NavLink>
-        </li>
-        <li>
+        </motion.li>
+        <motion.li whileTap={{ scale: 0.9 }}>
           <NavLink
             to="/contacto"
             className={({ isActive }) => (isActive ? "text-col1" : "")}
           >
             Contáctame
           </NavLink>
-        </li>
+        </motion.li>
       </ul>
     </nav>
   );
