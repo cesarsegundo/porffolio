@@ -8,9 +8,9 @@ import linkedin from "../../assets/linkedin-icon.svg";
 const Contact = () => {
   const [send, setSend] = useState(false);
 
-  const serviceId = import.meta.env.VITE_SERVICE_ID;
-  const templeteId = import.meta.env.VITE_TEMPLETE_ID;
-  const key = import.meta.env.VITE_PUBLIC_KEY;
+  const serviceId = "service_qka1cba";
+  const templeteId = "template_ov0qt0m";
+  const key = "b1KEv41ygow3RrAWG";
 
   const form = useRef();
 
