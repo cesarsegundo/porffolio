@@ -1,15 +1,15 @@
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"
 
-import pdf from "../../assets/cesar-cv.pdf";
-import SvgJavaScript from "../../assets/javascript.svg";
-import SvgTypescript from "../../assets/typescript.svg";
-import SvgPhp from "../../assets/php.svg";
-import SvgCss from "../../assets/css.svg";
-import SvgReact from "../../assets/react.svg";
-import SvgLaravel from "../../assets/laravel.svg";
-import SvgMysql from "../../assets/mysql.svg";
-import SvgTailwind from "../../assets/tailwindcss.svg";
-import SvgGit from "../../assets/git-icon.svg";
+import pdf from "../../assets/cesarCV.pdf"
+import SvgJavaScript from "../../assets/javascript.svg"
+import SvgTypescript from "../../assets/typescript.svg"
+import SvgPhp from "../../assets/php.svg"
+import SvgCss from "../../assets/css.svg"
+import SvgReact from "../../assets/react.svg"
+import SvgLaravel from "../../assets/laravel.svg"
+import SvgMysql from "../../assets/mysql.svg"
+import SvgTailwind from "../../assets/tailwindcss.svg"
+import SvgGit from "../../assets/git-icon.svg"
 
 const AboutMe = () => {
   return (
@@ -135,7 +135,7 @@ const AboutMe = () => {
         </section>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe

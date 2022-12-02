@@ -1,9 +1,10 @@
-import { motion } from "framer-motion";
-import Proyect from "../proyects/Proyect";
-import foto from "../../assets/bg.jpg";
-import todo from "../../assets/to-do.png";
-import cripto from "../../assets/cripto.png";
-import rickmorty from "../../assets/rickandmorty.png";
+import { motion } from "framer-motion"
+import Proyect from "../proyects/Proyect"
+import todo from "../../assets/to-do.png"
+import cripto from "../../assets/cripto.png"
+import rickmorty from "../../assets/rickmorty.png"
+import ecommerce from "../../assets/ecommerce.png"
+import schedule from "../../assets/schedule.png"
 
 const Portfolio = () => {
   return (
@@ -34,25 +35,25 @@ const Portfolio = () => {
         <Proyect
           image={rickmorty}
           title="Rick and Morty API"
-          description="Grilla de los personajes de la serie Rick and Morty"
-          linkWeb="https://cesarsegundo.github.io/react-rick-and-morty-api"
-          linkRepo="https://github.com/cesarsegundo/react-rick-and-morty-api"
+          description="Grilla de los personajes de la serie Rick and Morty usando axios y Context API"
+          linkWeb="https://context-api-rick-and-morty-nine.vercel.app/"
+          linkRepo="https://github.com/cesarsegundo/context-api-rick-and-morty"
         />
         <Proyect
-          image={foto}
+          image={ecommerce}
           title="Ecommerce"
           description="Aplicación de Laravel de un ecommerce de una tienda de abarrotes"
           linkRepo="https://github.com/cesarsegundo/ecommerce"
         />
         <Proyect
-          image={foto}
+          image={schedule}
           title="Agenda"
           description="Aplicación de Laravel de una agenda para reservación de citas"
           linkRepo="https://github.com/cesarsegundo/ecommerce"
         />
       </motion.section>
     </div>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio
